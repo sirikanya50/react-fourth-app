@@ -1,0 +1,19 @@
+export default function Footer() {
+  return (
+    <>
+      <h1 style={{ textAlign: "center" }}></h1>
+      <hr
+        style={{
+          border: "none",
+          height: "2px",
+          backgroundColor: "#4f4f4f",
+          width: "80%",
+          marginTop: "50px"
+        }}
+      />
+      <h4 style={{ textAlign: "center" }}>
+        ©Copyright 2026. Created by Sirikanya SAU
+      </h4>
+    </>
+  );
+}
